@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022", "Codingame.FallChallenge2022\Codingame.FallChallenge2022.csproj", "{2367AAC4-0E20-4923-A30E-704CB3828E41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codingame.FallChallenge2022", "Codingame.FallChallenge2022\Codingame.FallChallenge2022.csproj", "{2367AAC4-0E20-4923-A30E-704CB3828E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp1", "Codingame.FallChallenge2022.ConsoleApp1\Codingame.FallChallenge2022.ConsoleApp1.csproj", "{9C480745-A3BA-4855-8F43-19F0C888B404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp2", "Codingame.FallChallenge2022.ConsoleApp2\Codingame.FallChallenge2022.ConsoleApp2.csproj", "{4C6773F6-3D41-42C3-A6B1-64E08626FD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp3", "Codingame.FallChallenge2022.ConsoleApp3\Codingame.FallChallenge2022.ConsoleApp3.csproj", "{805279EA-06A9-46C8-973F-2D86F6B3CA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp4", "Codingame.FallChallenge2022.ConsoleApp4\Codingame.FallChallenge2022.ConsoleApp4.csproj", "{7177CB4C-DC8E-4634-851F-87423149D5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp5", "Codingame.FallChallenge2022.ConsoleApp5\Codingame.FallChallenge2022.ConsoleApp5.csproj", "{1DD072A0-8569-4BF7-9BA8-C6466BF50136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp6", "Codingame.FallChallenge2022.ConsoleApp6\Codingame.FallChallenge2022.ConsoleApp6.csproj", "{69D27C66-5605-4B2D-B9C9-4DD1F4173F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codingame.FallChallenge2022.ConsoleApp7", "Codingame.FallChallenge2022.ConsoleApp7\Codingame.FallChallenge2022.ConsoleApp7.csproj", "{ACDDEFDC-8BBF-4405-8D57-4229AA3CD2F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +31,46 @@ Global
 		{2367AAC4-0E20-4923-A30E-704CB3828E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2367AAC4-0E20-4923-A30E-704CB3828E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2367AAC4-0E20-4923-A30E-704CB3828E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C480745-A3BA-4855-8F43-19F0C888B404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C480745-A3BA-4855-8F43-19F0C888B404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C480745-A3BA-4855-8F43-19F0C888B404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C480745-A3BA-4855-8F43-19F0C888B404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6773F6-3D41-42C3-A6B1-64E08626FD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6773F6-3D41-42C3-A6B1-64E08626FD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6773F6-3D41-42C3-A6B1-64E08626FD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6773F6-3D41-42C3-A6B1-64E08626FD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805279EA-06A9-46C8-973F-2D86F6B3CA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805279EA-06A9-46C8-973F-2D86F6B3CA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805279EA-06A9-46C8-973F-2D86F6B3CA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805279EA-06A9-46C8-973F-2D86F6B3CA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7177CB4C-DC8E-4634-851F-87423149D5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7177CB4C-DC8E-4634-851F-87423149D5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7177CB4C-DC8E-4634-851F-87423149D5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7177CB4C-DC8E-4634-851F-87423149D5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD072A0-8569-4BF7-9BA8-C6466BF50136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD072A0-8569-4BF7-9BA8-C6466BF50136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD072A0-8569-4BF7-9BA8-C6466BF50136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD072A0-8569-4BF7-9BA8-C6466BF50136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D27C66-5605-4B2D-B9C9-4DD1F4173F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D27C66-5605-4B2D-B9C9-4DD1F4173F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D27C66-5605-4B2D-B9C9-4DD1F4173F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D27C66-5605-4B2D-B9C9-4DD1F4173F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDDEFDC-8BBF-4405-8D57-4229AA3CD2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDDEFDC-8BBF-4405-8D57-4229AA3CD2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDDEFDC-8BBF-4405-8D57-4229AA3CD2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDDEFDC-8BBF-4405-8D57-4229AA3CD2F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C480745-A3BA-4855-8F43-19F0C888B404} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
+		{4C6773F6-3D41-42C3-A6B1-64E08626FD31} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
+		{805279EA-06A9-46C8-973F-2D86F6B3CA4A} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
+		{7177CB4C-DC8E-4634-851F-87423149D5A4} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
+		{1DD072A0-8569-4BF7-9BA8-C6466BF50136} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
+		{69D27C66-5605-4B2D-B9C9-4DD1F4173F9D} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
+		{ACDDEFDC-8BBF-4405-8D57-4229AA3CD2F7} = {9DD863A5-7067-4FAC-9768-40AD3B3E7CC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC8FE882-AADB-476C-94D3-2EDCE23DEDBC}
